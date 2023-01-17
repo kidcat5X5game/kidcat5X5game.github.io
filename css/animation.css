@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*=================중단점=================*/
+/*=================여백=================*/
+@keyframes opacity-remove {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacity-title {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes offset_letter {
+  0% {
+    left: 0;
+  }
+  70% {
+    left: 0;
+  }
+  100% {
+    left: -0.1em;
+  }
+}
+@keyframes opacity-btn {
+  50% {
+    opacity: 0;
+    transform: translateY(45px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes cover-body {
+  0% {
+    right: 100%;
+    outline: 0px solid #e87d9e;
+  }
+  20% {
+    border-right: 0px solid #fcf8ac;
+  }
+  40% {
+    outline: 100px solid #e87d9e;
+  }
+  60% {
+    border-right: 50px solid #fcf8ac;
+  }
+  100% {
+    border-right: 0px solid #fcf8ac;
+    outline: 0px solid #e87d9e;
+    right: 0;
+  }
+}
+@keyframes error {
+  0% {
+    background-color: #ff0051;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@keyframes kitty_illust_ani {
+  100% {
+    transform: rotateX(0);
+  }
+}
+@keyframes kitty_head_ani {
+  0% {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(-7deg);
+  }
+  50% {
+    transform: rotateZ(0);
+  }
+  75% {
+    transform: rotateZ(7deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*=================중단점=================*/
+/*=================여백=================*/
+/*=================중단점=================*/
+/*=================여백=================*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nyan_zone {
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+}
+@media screen and (min-width: 768px) {
+  .nyan_zone {
+    width: 96.3541666667%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .nyan_zone {
+    width: 100%;
+    max-width: 1380px;
+  }
+}
+
+aside,
+nav,
+footer,
+header,
+bighead {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
